@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor de distancia</title>
+</head>
+
+<body>
+    <script>
+        const distancia = prompt("Ingrese La distancia a recorrer", "");
+    
+        console.log("La distancia es " + distancia);
+
+        if (distancia >= 100000) {
+            document.write("La distancia a recorrer es "+distancia +". Se recomienda recorrerlo en avión");
+            console.log("Se recomienda recorrerlo en avión");
+        } else if (distancia >= 30000 && distancia < 100000) {
+                document.write("La distancia a recorrer es "+distancia +". Se recomienda recorrerlo en auto");
+                console.log("Se recomienda recorrerlo en auto");
+            } else if (distancia >= 10000 && distancia < 30000) {
+                    document.write("La distancia a recorrer es "+distancia +". Se recomienda recorrerlo en colectivo");
+                    console.log("Se recomienda recorrerlo en colectivo");
+                } else if (distancia >= 1000 && distancia < 10000) {
+                    document.write("La distancia a recorrer es "+distancia +". Se recomienda recorrerlo en bicicleta");
+                    console.log("Se recomienda recorrerlo en bicicleta");
+                  } else if (distancia >= 0 && distancia < 1000) {
+                        document.write("La distancia a recorrer es "+distancia +". Se recomienda recorrerlo a pie");
+                        console.log("Se recomienda recorrerlo a pie");
+                    } else{
+                        document.write(" No se puede recorrer una distancia menor a 0");
+                        console.log("Error");
+                    }
+                  
+    </script>
+
+
+</body>
+
+</html>
