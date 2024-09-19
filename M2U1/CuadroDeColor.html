@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuadrados de color</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div contenedor="contenedor">
+        <div class="cuadrado rojo" onclick="cambiarcolor('red')"></div>
+        <div class="cuadrado verde" onclick="cambiarcolor('green')"></div>
+        <div class="cuadrado azul" onclick="cambiarcolor('blue')"></div>
+    </div>
+
+    <script>
+        function cambiarcolor(color) {
+            document.querySelector("body").style.background = color;
+        }
+    </script>
+</body>
+
+</html>

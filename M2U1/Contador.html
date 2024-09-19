@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="" id="texto"></textarea>
+    <p>Su parrafo tiene:<span id="contar"></span></p>
+
+    <script>
+        var texto = document.getElementById('texto');
+        var contar = document.getElementById('contar');
+        
+        texto.addEventListener('keyup', function(){
+            contar.innerText = texto.value.length;
+
+        })
+    </script>
+
+</body>
+</html>
