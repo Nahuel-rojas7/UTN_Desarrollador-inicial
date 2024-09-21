@@ -1,0 +1,27 @@
+.navegador{
+    background-color: lightblue;
+}
+
+.margen{
+    margin-top: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+.centro{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.card{
+    margin-top: 10px;
+}
+footer{
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
