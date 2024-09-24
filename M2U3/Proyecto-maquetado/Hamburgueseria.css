@@ -1,0 +1,183 @@
+/* font-family: "Open Sans", system-ui;
+font-family: "Alfa Slab One", system-ui; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-family: "Alfa Slab One", system-ui;
+    background-color: #333;
+    height: 70px;
+}
+
+ul li{
+  display: inline-block;
+  padding: 10px 20px 10px 0px;
+}
+
+#primero{
+    padding-left: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #008080;
+}
+
+.contenedor{
+    position: relative;
+}
+
+#hamburguesa{
+    width: 100%;
+}
+
+#hamburguesa img{
+    width: 100%;
+}
+
+#titulo{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    top: 170px;
+    left: 80px;
+    font-family: "Alfa Slab One", system-ui;
+    color: white;
+}
+
+#titulo h1{
+    font-weight: 400;
+}
+
+#titulo p{
+    font-family: "Open Sans", system-ui;
+}
+
+#contenedor1{
+    margin-top: 50px;
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    
+}
+
+h3{
+    font-weight: 400;
+    text-align: center;
+    font-family: "Alfa Slab One", system-ui;
+}
+
+
+#novedades{
+    width: 70%;
+    
+}
+
+#novedades div{
+    
+    display: flex;
+    background-color: rgb(204, 203, 203);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 230px;
+    align-items: center;
+
+}
+
+#novedades div img{
+    padding-left: 10px;
+}
+
+#novedades div h4{
+    font-weight: 400;
+    margin-left: 10px;
+    font-family: "Alfa Slab One", system-ui;
+    text-align: center;
+    color: #333;
+}
+
+#novedades div p{
+    font-family: "Open Sans", system-ui;
+    padding-left: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.tarjeta{
+    transition: all 0.3s;
+}
+
+.tarjeta:hover{
+transform: scale(1.01);
+}
+
+#testimonios{
+    width: 30%;  
+    
+}
+
+.carta{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 230px;
+    background-color: rgb(204, 203, 203);
+    text-align: center;
+}
+
+.carta h4{
+    font-weight: 400;
+    padding-top: 10px;
+    font-family: "Alfa Slab One", system-ui;
+    color: #333;
+}
+
+.carta p{
+    font-family: "Open Sans", system-ui;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    color: #333;
+}
+
+.carta span a{
+    color: #333;
+}
+
+.carta span a:hover{
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(204, 203, 203);
+    color: #333;
+    width: 80%;
+    margin-left: 10%;
+}
