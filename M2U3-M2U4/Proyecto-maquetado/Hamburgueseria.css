@@ -9,6 +9,7 @@ font-family: "Alfa Slab One", system-ui; */
 
 body{
     background-color: #333;
+    color: white;
 }
 
 header{
@@ -28,12 +29,8 @@ nav{
 }
 
 ul li{
-  display: inline-block;
-  padding: 10px 20px 10px 0px;
-}
-
-#primero{
-    padding-left: 20px;
+    display: inline-block;
+    padding: 10px 0px 10px 20px;
 }
 
 a{
@@ -45,7 +42,7 @@ a:hover{
     color: #008080;
 }
 
-.contenedor{
+#contenedor{
     position: relative;
 }
 
@@ -55,6 +52,13 @@ a:hover{
 
 #hamburguesa img{
     width: 100%;
+}
+
+p{
+    font-family: "Open Sans", system-ui;
+    padding-left: 10px;
+    text-align: center;
+    color: #333;
 }
 
 #titulo{
@@ -75,58 +79,43 @@ a:hover{
 }
 
 #titulo p{
-    font-family: "Open Sans", system-ui;
+    color: white;
 }
 
-#contenedor1{
-    margin-top: 50px;
+.contenedor{
     display: flex;
-    background-color: #333;
-    padding: 10px;
     color: white;
-    
+    width: 100%;   
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
 }
 
 h3{
     font-weight: 400;
     text-align: center;
     font-family: "Alfa Slab One", system-ui;
+    margin: 50px 0px 10px 0px;
 }
 
-
-#novedades{
-    width: 70%;
-    
-}
-
-#novedades div{
-    
-    display: flex;
-    background-color: rgb(204, 203, 203);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 230px;
-    align-items: center;
-
-}
-
-#novedades div img{
-    padding-left: 10px;
-}
-
-#novedades div h4{
+h4{
     font-weight: 400;
-    margin-left: 10px;
     font-family: "Alfa Slab One", system-ui;
     text-align: center;
     color: #333;
+    padding: 10px 0px 0px 0px;
 }
 
-#novedades div p{
-    font-family: "Open Sans", system-ui;
-    padding-left: 10px;
-    text-align: center;
-    color: #333;
+#novedades{
+    width: 70%;
+}
+
+#novedades div{  
+    display: flex;
+    background-color: rgb(204, 203, 203);
+    margin: 10px 10px 10px 0px;
+    padding: 0px 10px 0px 10px;
+    height: 230px;
+    align-items: center;
 }
 
 .tarjeta{
@@ -134,7 +123,7 @@ h3{
 }
 
 .tarjeta:hover{
-transform: scale(1.01);
+    transform: scale(1.01);
 }
 
 #testimonios{
@@ -143,27 +132,11 @@ transform: scale(1.01);
 }
 
 .carta{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 5px 0px 5px;
     height: 230px;
     background-color: rgb(204, 203, 203);
     text-align: center;
-}
-
-.carta h4{
-    font-weight: 400;
-    padding-top: 10px;
-    font-family: "Alfa Slab One", system-ui;
-    color: #333;
-}
-
-.carta p{
-    font-family: "Open Sans", system-ui;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 20px;
-    color: #333;
 }
 
 .carta span a{
@@ -174,26 +147,10 @@ transform: scale(1.01);
     color: blue;
 }
 
-#contenedor2{
-    width: 100%;
-    padding-bottom: 10px;
-    margin-top: 50px;
-    text-align: justify;
-    color: white;
-}
-
-#Contenedor2 h3{
-    font-weight: 400;
-    padding-bottom: 10px;
-    font-family: "Alfa Slab One", system-ui;
-}
-
 #historia{
     display: flex;
     width: 90%;
-    margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0% 5% 0% 5%;
     background-color: rgb(204, 203, 203);
 }
 
@@ -203,38 +160,13 @@ transform: scale(1.01);
 
 #historia img{
     width: 100%;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0px 10px 10px;
 }
 
 #principios{
     width: 100%;
-    color: #333;
-}
-
-#historia h4{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 5%;
-    margin-top: 90px;
-    font-weight: 400;
-    font-family: "Alfa Slab One", system-ui;
-}
-
-#historia p{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 20%;
-    font-family: "Open Sans", system-ui;
-}
-
-#contenedor3{
-    display: flex;
-    width: 100%;
-    margin-top: 10px;
+    margin: 10% 0% 10% 0%;
+    padding: 0% 5% 0% 5% ;
 }
 
 .presentacion{
@@ -242,37 +174,12 @@ transform: scale(1.01);
     width: 18%;
     height: 500px;
     margin-left: 1.6%;
-    color: #333;
+    padding: 10px 10px 10px 10px;
     background-color: rgb(204, 203, 203);
 }
 
 .presentacion img{
     width: 100%;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.presentacion h4{
-    font-weight: 400;
-    margin-top: 10px;
-    font-family: "Alfa Slab One", system-ui;
-
-}
-
-.presentacion p{
-    font-family: "Open Sans", system-ui;
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-
-#contenedor4{
-    width: 100%;
-    display: flex;
-    color: white;
-    margin-top: 50px;
 }
 
 #contacto{
@@ -280,17 +187,15 @@ transform: scale(1.01);
 }
 
 #formulario{
-    padding-top: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 10px 0px 0px;
     height: 450px;
     background-color: rgb(204, 203, 203);
     color: #333;
 }
 
 .form{
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
     display: flex;
     width: 100%;
     gap: 30px;
@@ -303,7 +208,6 @@ transform: scale(1.01);
     border: 1px solid #eee;
     border-radius: 3px;
 }
-
 
 .form textarea{
     width: 300px;
@@ -321,13 +225,9 @@ transform: scale(1.01);
 }
 
 #mapa iframe{
-    margin-top: 10px;
-    margin-right: 15px;
     padding: 10px;
     background-color: rgb(204, 203, 203);
 }
-
-
 
 footer{
     text-align: center;
