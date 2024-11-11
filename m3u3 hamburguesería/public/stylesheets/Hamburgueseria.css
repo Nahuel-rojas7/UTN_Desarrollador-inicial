@@ -1,0 +1,239 @@
+/* font-family: "Open Sans", system-ui;
+font-family: "Alfa Slab One", system-ui; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: white;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    font-family: "Alfa Slab One", system-ui;
+    background-color: #333;
+    height: 70px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 0px 10px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #008080;
+}
+
+#contenedor{
+    position: relative;
+}
+
+#hamburguesa{
+    width: 100%;
+}
+
+#hamburguesa img{
+    width: 100%;
+}
+
+p{
+    font-family: "Open Sans", system-ui;
+    padding-left: 10px;
+    text-align: center;
+    color: #333;
+}
+
+#titulo{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    top: 170px;
+    left: 80px;
+    font-family: "Alfa Slab One", system-ui;
+    color: white;
+}
+
+#titulo h1{
+    font-weight: 400;
+}
+
+#titulo p{
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    color: white;
+    width: 100%;   
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+h3{
+    font-weight: 400;
+    text-align: center;
+    font-family: "Alfa Slab One", system-ui;
+    margin: 50px 0px 10px 0px;
+}
+
+h4{
+    font-weight: 400;
+    font-family: "Alfa Slab One", system-ui;
+    text-align: center;
+    color: #333;
+    padding: 10px 0px 0px 0px;
+}
+
+#novedades{
+    width: 70%;
+}
+
+#novedades div{  
+    display: flex;
+    background-color: rgb(204, 203, 203);
+    margin: 10px 10px 10px 0px;
+    padding: 0px 10px 0px 10px;
+    height: 230px;
+    align-items: center;
+}
+
+.tarjeta{
+    transition: all 0.3s;
+}
+
+.tarjeta:hover{
+    transform: scale(1.01);
+}
+
+#testimonios{
+    width: 30%;  
+    
+}
+
+.carta{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 5px 0px 5px;
+    height: 230px;
+    background-color: rgb(204, 203, 203);
+    text-align: center;
+}
+
+.carta span a{
+    color: #333;
+}
+
+.carta span a:hover{
+    color: blue;
+}
+
+#historia{
+    display: flex;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+    background-color: rgb(204, 203, 203);
+}
+
+#imagen{
+    width: 40%;
+}
+
+#historia img{
+    width: 100%;
+    margin: 10px 0px 10px 10px;
+}
+
+#principios{
+    width: 100%;
+    margin: 10% 0% 10% 0%;
+    padding: 0% 5% 0% 5% ;
+}
+
+.presentacion{
+    text-align: center;
+    width: 18%;
+    height: 500px;
+    margin-left: 1.6%;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(204, 203, 203);
+}
+
+.presentacion img{
+    width: 100%;
+}
+
+#contacto{
+    width: 60%;
+}
+
+#formulario{
+    padding: 10px 0px 0px 0px;
+    margin: 10px 10px 0px 0px;
+    height: 450px;
+    background-color: rgb(204, 203, 203);
+    color: #333;
+}
+
+.form{
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+.form input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.form textarea{
+    width: 300px;
+}
+
+.form button{
+    height: 50px;
+    width: 100px;
+    background-color: #333;
+    color: white;
+}
+
+#mapa{
+    width: 40%;
+}
+
+#mapa iframe{
+    padding: 10px;
+    background-color: rgb(204, 203, 203);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(204, 203, 203);
+    color: #333;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
